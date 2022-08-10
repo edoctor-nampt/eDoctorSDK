@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'eDoctorSDK_Example' do
+  pod 'eDoctorSDK', :path => '../'
+
+  target 'eDoctorSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

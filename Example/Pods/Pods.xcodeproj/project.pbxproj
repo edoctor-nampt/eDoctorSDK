@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FBB0F152E0448C513DFEC4AE64EEBEF /* Pods-eDoctorSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9427A833698E851C386C02E66044ECC1 /* Pods-eDoctorSDK_Example-dummy.m */; };
+		2AE4D3A4A05F5DA4CAEE7F00879E9171 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959865E15E14F618D1E9A3B7105204DB /* WebViewController.swift */; };
+		346F52AF6013B05D8D18310D54D4A75A /* Pods-eDoctorSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B14E402C09E6954215EEDDBA395A10 /* Pods-eDoctorSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DFF088AD2BFA597549AB8AFCF75CDED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6619702D5D659F7F22D909919AAF2184 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6F97B7E2F3C89492B43D899FC6377E47 /* Pods-eDoctorSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA36C5BCEB4D1E5869C56E0FBE685A05 /* Pods-eDoctorSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		933869E666816865151B6F2D093C7FBC /* eDoctorSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC61969E7777B268D5630E8BC596F596 /* eDoctorSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6722BE7CBACED8DF8A1549D450B5E56 /* EClinic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A131E24FFF9B051E1804BC41B952E2 /* EClinic.swift */; };
+		DC11E48A508F92FC4EB8E397C115AB76 /* Pods-eDoctorSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5049D95D92488B54CF63E5719E85104 /* Pods-eDoctorSDK_Tests-dummy.m */; };
+		E797A673B50F9AF459C87F11C7F1C56D /* eDoctorSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4902E6C9F93D4FC68D323E3088602C1B /* eDoctorSDK-dummy.m */; };
+		FB2B6D1F785F9404C01FFAE549160592 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21E31C9044FD6CA571B3D9478D2A9D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D2936E8AFC8BCBD06C9FD5BD1BCCF40;
+			remoteInfo = eDoctorSDK;
+		};
+		45F0E840FE354989D2EB2DDD41ECA4B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B6F69CFCC043A0FE0126D22DA51B5AB;
+			remoteInfo = "Pods-eDoctorSDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16B34D7DE966401D305F40E1C63AE2AB /* eDoctorSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = eDoctorSDK.debug.xcconfig; sourceTree = "<group>"; };
+		1F1720567385DDB79B5E64152EFD8323 /* eDoctorSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = eDoctorSDK; path = eDoctorSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2490ED8FA3F2E7C22A3DD89178F7101D /* Pods-eDoctorSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eDoctorSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		28B14E402C09E6954215EEDDBA395A10 /* Pods-eDoctorSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-eDoctorSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		3FF7E4B709416FECEBA3D5B6ED43748B /* eDoctorSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = eDoctorSDK.release.xcconfig; sourceTree = "<group>"; };
+		44FD3F0C91317A5B23FC344BBB42FFBE /* Pods-eDoctorSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eDoctorSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4902E6C9F93D4FC68D323E3088602C1B /* eDoctorSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "eDoctorSDK-dummy.m"; sourceTree = "<group>"; };
+		55208ED144FD3EA1B79477C20D1E08C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		562407636FBF1C0175351D5056748EF4 /* Pods-eDoctorSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-eDoctorSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		57544EE3F5DC8D3E1179999168E5C145 /* Pods-eDoctorSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-eDoctorSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65A320119DC1978F8303E53C6D6777C5 /* Pods-eDoctorSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eDoctorSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		68E6A79479F9119C091B1F24489C3F08 /* Pods-eDoctorSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eDoctorSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6A3931921A83F69EA5D1284D3DD2B920 /* Pods-eDoctorSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-eDoctorSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6DD68152D9A1052131C179E3D9F92134 /* Pods-eDoctorSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eDoctorSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79AEE386F8D7A3559B16C7CDE3BED651 /* eDoctorSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "eDoctorSDK-Info.plist"; sourceTree = "<group>"; };
+		80B109FD2D4D8668035A899BBE3D820E /* eDoctorSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = eDoctorSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		819489F0245B0B0FFFF8ED37ED1BB3F0 /* eDoctorSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "eDoctorSDK-prefix.pch"; sourceTree = "<group>"; };
+		8AB1A011EE07E5332C8CA031D6CFF953 /* Pods-eDoctorSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-eDoctorSDK_Example"; path = Pods_eDoctorSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9427A833698E851C386C02E66044ECC1 /* Pods-eDoctorSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-eDoctorSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		94C87F1E47320AA48BCD97C7EC4A07A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		959865E15E14F618D1E9A3B7105204DB /* WebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC61969E7777B268D5630E8BC596F596 /* eDoctorSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "eDoctorSDK-umbrella.h"; sourceTree = "<group>"; };
+		B2A14782B255A3764FF3C0725471688E /* Pods-eDoctorSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-eDoctorSDK_Example.modulemap"; sourceTree = "<group>"; };
+		B2AFCBA9B04C470F7797FDF8CB46FB44 /* Pods-eDoctorSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eDoctorSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6318EA80051183D46BB9C9F7CA43A91 /* eDoctorSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = eDoctorSDK.modulemap; sourceTree = "<group>"; };
+		C42FF01CCF3C7E99EE8226F0DDFF6F0A /* Pods-eDoctorSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-eDoctorSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		CA36C5BCEB4D1E5869C56E0FBE685A05 /* Pods-eDoctorSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-eDoctorSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D5049D95D92488B54CF63E5719E85104 /* Pods-eDoctorSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-eDoctorSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		DD02000070D8563A5BCA3368227683EC /* Pods-eDoctorSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eDoctorSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		E4A131E24FFF9B051E1804BC41B952E2 /* EClinic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EClinic.swift; path = eDoctorSDK/Classes/EClinic.swift; sourceTree = "<group>"; };
+		E7367DFBF089B9703F4AC9DEA540A5C6 /* Pods-eDoctorSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eDoctorSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		EE21AA4A888F9321F7C67FD66A17AE87 /* Pods-eDoctorSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-eDoctorSDK_Tests"; path = Pods_eDoctorSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FF415B7D2326F6A10AA2434FA582AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2B6D1F785F9404C01FFAE549160592 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A2D0C4F62CA85280DD4B60E38595AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6619702D5D659F7F22D909919AAF2184 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD393E54AAF79B3813E93FDAE5AA6DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFF088AD2BFA597549AB8AFCF75CDED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		175631E14AE8C280C657C14F31DE7B3B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D66DF242792D7E221480DC29053E356 /* Pods-eDoctorSDK_Example */,
+				7E49FE866A8661E916F33967900802B9 /* Pods-eDoctorSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1C1BD1ACFF21EE70CFFB6B5220ECB0A0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				959865E15E14F618D1E9A3B7105204DB /* WebViewController.swift */,
+			);
+			name = ViewController;
+			path = eDoctorSDK/Classes/ViewController;
+			sourceTree = "<group>";
+		};
+		4BF191FBECD611EAFCE3DE8179561365 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F28F81E339D3B7893AB9B46832A7A17 /* eDoctorSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6D66DF242792D7E221480DC29053E356 /* Pods-eDoctorSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B2A14782B255A3764FF3C0725471688E /* Pods-eDoctorSDK_Example.modulemap */,
+				57544EE3F5DC8D3E1179999168E5C145 /* Pods-eDoctorSDK_Example-acknowledgements.markdown */,
+				65A320119DC1978F8303E53C6D6777C5 /* Pods-eDoctorSDK_Example-acknowledgements.plist */,
+				9427A833698E851C386C02E66044ECC1 /* Pods-eDoctorSDK_Example-dummy.m */,
+				562407636FBF1C0175351D5056748EF4 /* Pods-eDoctorSDK_Example-frameworks.sh */,
+				E7367DFBF089B9703F4AC9DEA540A5C6 /* Pods-eDoctorSDK_Example-Info.plist */,
+				28B14E402C09E6954215EEDDBA395A10 /* Pods-eDoctorSDK_Example-umbrella.h */,
+				44FD3F0C91317A5B23FC344BBB42FFBE /* Pods-eDoctorSDK_Example.debug.xcconfig */,
+				68E6A79479F9119C091B1F24489C3F08 /* Pods-eDoctorSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-eDoctorSDK_Example";
+			path = "Target Support Files/Pods-eDoctorSDK_Example";
+			sourceTree = "<group>";
+		};
+		76F04B28B37F08EA1EE1502AFB095E6D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6318EA80051183D46BB9C9F7CA43A91 /* eDoctorSDK.modulemap */,
+				4902E6C9F93D4FC68D323E3088602C1B /* eDoctorSDK-dummy.m */,
+				79AEE386F8D7A3559B16C7CDE3BED651 /* eDoctorSDK-Info.plist */,
+				819489F0245B0B0FFFF8ED37ED1BB3F0 /* eDoctorSDK-prefix.pch */,
+				AC61969E7777B268D5630E8BC596F596 /* eDoctorSDK-umbrella.h */,
+				16B34D7DE966401D305F40E1C63AE2AB /* eDoctorSDK.debug.xcconfig */,
+				3FF7E4B709416FECEBA3D5B6ED43748B /* eDoctorSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/eDoctorSDK";
+			sourceTree = "<group>";
+		};
+		7E49FE866A8661E916F33967900802B9 /* Pods-eDoctorSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C42FF01CCF3C7E99EE8226F0DDFF6F0A /* Pods-eDoctorSDK_Tests.modulemap */,
+				6A3931921A83F69EA5D1284D3DD2B920 /* Pods-eDoctorSDK_Tests-acknowledgements.markdown */,
+				B2AFCBA9B04C470F7797FDF8CB46FB44 /* Pods-eDoctorSDK_Tests-acknowledgements.plist */,
+				D5049D95D92488B54CF63E5719E85104 /* Pods-eDoctorSDK_Tests-dummy.m */,
+				DD02000070D8563A5BCA3368227683EC /* Pods-eDoctorSDK_Tests-Info.plist */,
+				CA36C5BCEB4D1E5869C56E0FBE685A05 /* Pods-eDoctorSDK_Tests-umbrella.h */,
+				2490ED8FA3F2E7C22A3DD89178F7101D /* Pods-eDoctorSDK_Tests.debug.xcconfig */,
+				6DD68152D9A1052131C179E3D9F92134 /* Pods-eDoctorSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-eDoctorSDK_Tests";
+			path = "Target Support Files/Pods-eDoctorSDK_Tests";
+			sourceTree = "<group>";
+		};
+		8F28F81E339D3B7893AB9B46832A7A17 /* eDoctorSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E4A131E24FFF9B051E1804BC41B952E2 /* EClinic.swift */,
+				B852DE6FB71E0179B39811B3ADDD649A /* Pod */,
+				76F04B28B37F08EA1EE1502AFB095E6D /* Support Files */,
+				1C1BD1ACFF21EE70CFFB6B5220ECB0A0 /* ViewController */,
+			);
+			name = eDoctorSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B852DE6FB71E0179B39811B3ADDD649A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				80B109FD2D4D8668035A899BBE3D820E /* eDoctorSDK.podspec */,
+				55208ED144FD3EA1B79477C20D1E08C8 /* LICENSE */,
+				94C87F1E47320AA48BCD97C7EC4A07A9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4BF191FBECD611EAFCE3DE8179561365 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DB5803E9D0ABC580D1F2A293177A5500 /* Products */,
+				175631E14AE8C280C657C14F31DE7B3B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB5803E9D0ABC580D1F2A293177A5500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F1720567385DDB79B5E64152EFD8323 /* eDoctorSDK */,
+				8AB1A011EE07E5332C8CA031D6CFF953 /* Pods-eDoctorSDK_Example */,
+				EE21AA4A888F9321F7C67FD66A17AE87 /* Pods-eDoctorSDK_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7835DFA42A8ED2ACE84E2D0F958E3DEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933869E666816865151B6F2D093C7FBC /* eDoctorSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4149DBEEEA4580A76BB6F8393B044FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F97B7E2F3C89492B43D899FC6377E47 /* Pods-eDoctorSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27B3AB0351467469D69BE2D0879426B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346F52AF6013B05D8D18310D54D4A75A /* Pods-eDoctorSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D2936E8AFC8BCBD06C9FD5BD1BCCF40 /* eDoctorSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04C5EDCA824FA6800DE524EEB110187 /* Build configuration list for PBXNativeTarget "eDoctorSDK" */;
+			buildPhases = (
+				7835DFA42A8ED2ACE84E2D0F958E3DEA /* Headers */,
+				5FF5E7D298F386DFA77464782F2B0474 /* Sources */,
+				3FF415B7D2326F6A10AA2434FA582AD3 /* Frameworks */,
+				7D94EEA23C160E5155135E32AB5033E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eDoctorSDK;
+			productName = eDoctorSDK;
+			productReference = 1F1720567385DDB79B5E64152EFD8323 /* eDoctorSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E2483A0203DE5204148E9F188DA178D /* Pods-eDoctorSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F4237A6977295EF65E745F922DF248 /* Build configuration list for PBXNativeTarget "Pods-eDoctorSDK_Tests" */;
+			buildPhases = (
+				B4149DBEEEA4580A76BB6F8393B044FC /* Headers */,
+				963AFC3C8907C6D9CAC07F7AF0A22675 /* Sources */,
+				DD393E54AAF79B3813E93FDAE5AA6DC8 /* Frameworks */,
+				C4EC1E59B5814569FDA29CA0618199F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB14A6200267BBF82BC8F682DC33C56 /* PBXTargetDependency */,
+			);
+			name = "Pods-eDoctorSDK_Tests";
+			productName = Pods_eDoctorSDK_Tests;
+			productReference = EE21AA4A888F9321F7C67FD66A17AE87 /* Pods-eDoctorSDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B6F69CFCC043A0FE0126D22DA51B5AB /* Pods-eDoctorSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085DB930658BFBE4348B8D6B75BEA0E4 /* Build configuration list for PBXNativeTarget "Pods-eDoctorSDK_Example" */;
+			buildPhases = (
+				F27B3AB0351467469D69BE2D0879426B /* Headers */,
+				E5643130FB59A68C9E80A14C35A94F8E /* Sources */,
+				B9A2D0C4F62CA85280DD4B60E38595AE /* Frameworks */,
+				6B7FC0E9DBFD1A9CC9DD30843C8AD670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE46140E71795A21993FD1510D59C456 /* PBXTargetDependency */,
+			);
+			name = "Pods-eDoctorSDK_Example";
+			productName = Pods_eDoctorSDK_Example;
+			productReference = 8AB1A011EE07E5332C8CA031D6CFF953 /* Pods-eDoctorSDK_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DB5803E9D0ABC580D1F2A293177A5500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D2936E8AFC8BCBD06C9FD5BD1BCCF40 /* eDoctorSDK */,
+				4B6F69CFCC043A0FE0126D22DA51B5AB /* Pods-eDoctorSDK_Example */,
+				1E2483A0203DE5204148E9F188DA178D /* Pods-eDoctorSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B7FC0E9DBFD1A9CC9DD30843C8AD670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D94EEA23C160E5155135E32AB5033E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EC1E59B5814569FDA29CA0618199F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FF5E7D298F386DFA77464782F2B0474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6722BE7CBACED8DF8A1549D450B5E56 /* EClinic.swift in Sources */,
+				E797A673B50F9AF459C87F11C7F1C56D /* eDoctorSDK-dummy.m in Sources */,
+				2AE4D3A4A05F5DA4CAEE7F00879E9171 /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963AFC3C8907C6D9CAC07F7AF0A22675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC11E48A508F92FC4EB8E397C115AB76 /* Pods-eDoctorSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5643130FB59A68C9E80A14C35A94F8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBB0F152E0448C513DFEC4AE64EEBEF /* Pods-eDoctorSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BB14A6200267BBF82BC8F682DC33C56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-eDoctorSDK_Example";
+			target = 4B6F69CFCC043A0FE0126D22DA51B5AB /* Pods-eDoctorSDK_Example */;
+			targetProxy = 45F0E840FE354989D2EB2DDD41ECA4B9 /* PBXContainerItemProxy */;
+		};
+		EE46140E71795A21993FD1510D59C456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = eDoctorSDK;
+			target = 1D2936E8AFC8BCBD06C9FD5BD1BCCF40 /* eDoctorSDK */;
+			targetProxy = 21E31C9044FD6CA571B3D9478D2A9D36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EEA3EC74F34DB548EDDC1BD8BBF1FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2490ED8FA3F2E7C22A3DD89178F7101D /* Pods-eDoctorSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-eDoctorSDK_Tests/Pods-eDoctorSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-eDoctorSDK_Tests/Pods-eDoctorSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6413E094A6B1CB10D12EFADAE65F4EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD68152D9A1052131C179E3D9F92134 /* Pods-eDoctorSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-eDoctorSDK_Tests/Pods-eDoctorSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-eDoctorSDK_Tests/Pods-eDoctorSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BEFEF9CC3B5F907BA73703FBEDC22BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B34D7DE966401D305F40E1C63AE2AB /* eDoctorSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/eDoctorSDK/eDoctorSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/eDoctorSDK/eDoctorSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/eDoctorSDK/eDoctorSDK.modulemap";
+				PRODUCT_MODULE_NAME = eDoctorSDK;
+				PRODUCT_NAME = eDoctorSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D6864E50CE0887732DEEDBD5C963D754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E6A79479F9119C091B1F24489C3F08 /* Pods-eDoctorSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-eDoctorSDK_Example/Pods-eDoctorSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-eDoctorSDK_Example/Pods-eDoctorSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E25E72A22B1B53253DB1725603770873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44FD3F0C91317A5B23FC344BBB42FFBE /* Pods-eDoctorSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-eDoctorSDK_Example/Pods-eDoctorSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-eDoctorSDK_Example/Pods-eDoctorSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC995E67D2494C0FA37E83E6E54F75E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF7E4B709416FECEBA3D5B6ED43748B /* eDoctorSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/eDoctorSDK/eDoctorSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/eDoctorSDK/eDoctorSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/eDoctorSDK/eDoctorSDK.modulemap";
+				PRODUCT_MODULE_NAME = eDoctorSDK;
+				PRODUCT_NAME = eDoctorSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		085DB930658BFBE4348B8D6B75BEA0E4 /* Build configuration list for PBXNativeTarget "Pods-eDoctorSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25E72A22B1B53253DB1725603770873 /* Debug */,
+				D6864E50CE0887732DEEDBD5C963D754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09F4237A6977295EF65E745F922DF248 /* Build configuration list for PBXNativeTarget "Pods-eDoctorSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEA3EC74F34DB548EDDC1BD8BBF1FF7 /* Debug */,
+				6413E094A6B1CB10D12EFADAE65F4EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F04C5EDCA824FA6800DE524EEB110187 /* Build configuration list for PBXNativeTarget "eDoctorSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFEF9CC3B5F907BA73703FBEDC22BB3 /* Debug */,
+				FC995E67D2494C0FA37E83E6E54F75E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

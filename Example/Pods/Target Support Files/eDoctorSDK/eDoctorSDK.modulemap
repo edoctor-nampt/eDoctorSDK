@@ -1,0 +1,6 @@
+framework module eDoctorSDK {
+  umbrella header "eDoctorSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

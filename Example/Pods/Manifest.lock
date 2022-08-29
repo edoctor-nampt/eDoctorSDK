@@ -1,0 +1,16 @@
+PODS:
+  - eDoctorSDK (0.1.0)
+
+DEPENDENCIES:
+  - eDoctorSDK (from `../`)
+
+EXTERNAL SOURCES:
+  eDoctorSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  eDoctorSDK: 2cad9800aea1c9bbc8295d4f8bc923ec02902395
+
+PODFILE CHECKSUM: cc610facc85681faaecc64931a46ab5b7fd4b236
+
+COCOAPODS: 1.11.3

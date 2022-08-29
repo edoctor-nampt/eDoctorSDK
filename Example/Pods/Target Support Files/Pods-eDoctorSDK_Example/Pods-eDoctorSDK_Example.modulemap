@@ -1,0 +1,6 @@
+framework module Pods_eDoctorSDK_Example {
+  umbrella header "Pods-eDoctorSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
